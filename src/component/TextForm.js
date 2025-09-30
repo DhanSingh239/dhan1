@@ -24,10 +24,10 @@ export default function TextForm(props) {
         <div className="container">
              <h1>{props.heading}</h1>
              <div className="mb-3">
-                 <textarea className="form-control" value={text} onChange={(event) => { setText(event.target.value); } } id="myBox" rows="8"></textarea>
+                 <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
              </div>
-             <button className="btn btn-primary mx-2" onClick={() => { let newText = text.toUpperCase(); setText(newText); } }>Convert to Uppercase</button>
-                <button className="btn btn-primary mx-2" onClick={() => { let newText = text.toLowerCase(); setText(newText); } }>Convert to Lowercase</button>
+             <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
+                <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to Lowercase</button>
 
          </div>
          <div className="container my-3">
