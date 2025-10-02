@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dhan1/static/css/main.f855e6bc.css",
+    "main.js": "/dhan1/static/js/main.0e485d3d.js",
+    "static/js/453.950e975d.chunk.js": "/dhan1/static/js/453.950e975d.chunk.js",
+    "index.html": "/dhan1/index.html",
+    "main.f855e6bc.css.map": "/dhan1/static/css/main.f855e6bc.css.map",
+    "main.0e485d3d.js.map": "/dhan1/static/js/main.0e485d3d.js.map",
+    "453.950e975d.chunk.js.map": "/dhan1/static/js/453.950e975d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.0e485d3d.js"
+  ]
+}
